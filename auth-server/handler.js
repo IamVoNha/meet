@@ -92,7 +92,7 @@ module.exports.getAccessToken = async (event) => {
           },
           body: JSON.stringify(token),
         };
-      }) 
+      })
       .catch((err) => {
         // Handle error
         console.error(err);
