@@ -17,25 +17,26 @@ import React, { Component } from 'react';
      const event = this.props.event;
      return (
        <div className="event">
-         <div className="summary">
-           <h1>{event.summary}</h1>
-         </div>
-         <div className="eventInfo_collapsed">
-         </div>
+            <div className="summary">
+              <h1>{event.summary}</h1>
+            </div>
+            <div className="dateTime">Date: {event.start.dateTime.slice(0, 10)}</div>
+				    <div className="timeZone">Time Zone: {event.start.timeZone}</div>
+				    <div className="location">Location: {event.location}</div>
          {this.state.show && (
-           <div className="detailInfo">
-             <h2>About event:</h2>
-             <div className="description">{event.description}</div>
-             <a href={event.htmlLink}>
-               See details on Google Calender
-             </a>
-           </div>
+            <div className="detailInfo">
+              <h2>About event:</h2>
+              <div className="description">{event.description}</div>
+              <a href={event.htmlLink}>
+                See details on Google Calender
+              </a>
+        </div>
          )}
-         <div>
-           <button className="showDetails" onClick={this.showDetails}>
-             {this.state.showButton}
-           </button>
-         </div>
+        <div className="eventButton">
+            <button className="showDetails" onClick={this.showDetails}>
+              {this.state.showButton}
+            </button>
+        </div>
        </div>
      );
    }

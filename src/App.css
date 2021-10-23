@@ -42,13 +42,13 @@ input[type='number'] {
   padding: 10px 10px 35px;
   margin-bottom: 10px;
   text-align: left;
-  border: 1px solid rgb(129, 129, 129);
+  border: 1px solid rgb(122, 122, 122);
   border-radius: 4px;
   position: relative;
 }
 
 button{
-  background-color: rgb(172, 133, 133);
+  background-color: rgb(202, 181, 181);
   font-weight: bold;
   color: black;
 }
