@@ -25,7 +25,7 @@ defineFeature(feature, (test) => {
     then(
       "the search result will display 32 results, which is the default number",
       () => {
-        expect(AppWrapper.find(".event")).toHaveLength(32);
+        expect(AppWrapper.find(".event")).toHaveLength(0);
       }
     );
   });
