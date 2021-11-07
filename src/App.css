@@ -1,5 +1,5 @@
 body {
-  background-image: url("meetAppBackground.jpg");
+  background-image: url("./meetAppBackground.jpg");
    background-attachment: fixed;
    background-size: cover;
 }
