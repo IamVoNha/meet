@@ -40,6 +40,7 @@ import { InfoAlert } from './Alert';
    render() {
      return (
        <div className="CitySearch">
+         <p>Search for a City</p>
          <InfoAlert text={this.state.infoText} />
          <input
            type="text"
