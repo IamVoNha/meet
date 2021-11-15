@@ -18,7 +18,7 @@ import React, { useEffect, useState } from 'react';
      setData(() => getData());
    }, [events]);
 
-   const COLORS = ['#f20000', '#246300', '#001763', '#690f48', '#000000'];
+   const COLORS = ['#6b0000', '#246300', '#001763', '#690f48', '#000000'];
 
    return (
      <ResponsiveContainer height={400} >
